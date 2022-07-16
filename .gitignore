@@ -130,4 +130,4 @@ dmypy.json
 
 server/config.json
 Data
-server/static
+#server/static - временно разрешаем статику в гите, чтобы не ставить Nodejs на сервак
