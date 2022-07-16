@@ -1,16 +1,20 @@
 <template>
   <MapExample></MapExample>
+  <index></index>
+  <input-product></input-product>
 </template>
 
 <script>
-import MapExample from './components/MapExample.vue'
-
+import MapExample from './components/MapExample'
+import index from './components/indexOne'
+import inputProduct from './components/inputProduct';
 export default {
   name: 'App',
   components: {
-    MapExample
+    MapExample,
+    index,
+    inputProduct,
   },
-
 
 }
 </script>
