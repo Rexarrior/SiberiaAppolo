@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TUNVEDTransformer": {
+      "commandName": "Project",
+      "commandLineArgs": "dateset_in.csv \"TNVED4.Txt\" dataset_out.csv"
+    }
+  }
+}

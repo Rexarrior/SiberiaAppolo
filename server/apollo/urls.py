@@ -25,4 +25,5 @@ urlpatterns = [
     path('', v.index_page),
     path('favicon.ico', v.favicon),
     path(r'resources/<path:path>', v.static_delivery),
+    path('api/task1_form', v.task1_form)
 ] 

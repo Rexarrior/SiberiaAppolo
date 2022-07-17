@@ -1,21 +1,10 @@
 <template>
-  <MapExample></MapExample>
-  <index></index>
-  <input-product></input-product>
+  <router-view></router-view>
 </template>
 
 <script>
-import MapExample from './components/MapExample'
-import index from './components/indexOne'
-import inputProduct from './components/inputProduct';
 export default {
-  name: 'App',
-  components: {
-    MapExample,
-    index,
-    inputProduct,
-  },
-
+    name: "App",
 }
 </script>
 
@@ -26,6 +15,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

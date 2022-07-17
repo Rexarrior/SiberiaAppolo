@@ -10,6 +10,15 @@ import json
 import os
 from apollo.settings import BASE_DIR
 CLIENT_MIN_BALANCE = 0
+from django.views.decorators.csrf import csrf_exempt
+
+@csrf_exempt
+def task1_form(request):
+    json_str=((request.body).decode('utf-8'))
+    json_obj=json.loads(json_str)
+    print(json_obj)
+    answer = {"validation_score": 5}
+    return HttpResponse( answer)
 
 
 def index_page(request):

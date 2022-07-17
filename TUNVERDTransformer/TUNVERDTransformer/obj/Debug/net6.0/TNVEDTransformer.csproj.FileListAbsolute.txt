@@ -1,0 +1,17 @@
+C:\Users\Rexarrior\Desktop\хакатон\SiberiaAppolo\TUNVERDTransformer\TUNVERDTransformer\obj\Debug\net6.0\TNVEDTransformer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rexarrior\Desktop\хакатон\SiberiaAppolo\TUNVERDTransformer\TUNVERDTransformer\obj\Debug\net6.0\TNVEDTransformer.AssemblyInfoInputs.cache
+C:\Users\Rexarrior\Desktop\хакатон\SiberiaAppolo\TUNVERDTransformer\TUNVERDTransformer\obj\Debug\net6.0\TNVEDTransformer.AssemblyInfo.cs
+C:\Users\Rexarrior\Desktop\хакатон\SiberiaAppolo\TUNVERDTransformer\TUNVERDTransformer\obj\Debug\net6.0\TNVEDTransformer.csproj.CoreCompileInputs.cache
+C:\Users\Rexarrior\Desktop\хакатон\SiberiaAppolo\TUNVERDTransformer\TUNVERDTransformer\bin\Debug\net6.0\TNVEDTransformer.exe
+C:\Users\Rexarrior\Desktop\хакатон\SiberiaAppolo\TUNVERDTransformer\TUNVERDTransformer\bin\Debug\net6.0\TNVEDTransformer.deps.json
+C:\Users\Rexarrior\Desktop\хакатон\SiberiaAppolo\TUNVERDTransformer\TUNVERDTransformer\bin\Debug\net6.0\TNVEDTransformer.runtimeconfig.json
+C:\Users\Rexarrior\Desktop\хакатон\SiberiaAppolo\TUNVERDTransformer\TUNVERDTransformer\bin\Debug\net6.0\TNVEDTransformer.dll
+C:\Users\Rexarrior\Desktop\хакатон\SiberiaAppolo\TUNVERDTransformer\TUNVERDTransformer\bin\Debug\net6.0\ref\TNVEDTransformer.dll
+C:\Users\Rexarrior\Desktop\хакатон\SiberiaAppolo\TUNVERDTransformer\TUNVERDTransformer\bin\Debug\net6.0\TNVEDTransformer.pdb
+C:\Users\Rexarrior\Desktop\хакатон\SiberiaAppolo\TUNVERDTransformer\TUNVERDTransformer\bin\Debug\net6.0\CsvHelper.dll
+C:\Users\Rexarrior\Desktop\хакатон\SiberiaAppolo\TUNVERDTransformer\TUNVERDTransformer\obj\Debug\net6.0\TNVEDTransformer.csproj.CopyComplete
+C:\Users\Rexarrior\Desktop\хакатон\SiberiaAppolo\TUNVERDTransformer\TUNVERDTransformer\obj\Debug\net6.0\TNVEDTransformer.dll
+C:\Users\Rexarrior\Desktop\хакатон\SiberiaAppolo\TUNVERDTransformer\TUNVERDTransformer\obj\Debug\net6.0\ref\TNVEDTransformer.dll
+C:\Users\Rexarrior\Desktop\хакатон\SiberiaAppolo\TUNVERDTransformer\TUNVERDTransformer\obj\Debug\net6.0\TNVEDTransformer.pdb
+C:\Users\Rexarrior\Desktop\хакатон\SiberiaAppolo\TUNVERDTransformer\TUNVERDTransformer\obj\Debug\net6.0\TNVEDTransformer.genruntimeconfig.cache
+C:\Users\Rexarrior\Desktop\хакатон\SiberiaAppolo\TUNVERDTransformer\TUNVERDTransformer\obj\Debug\net6.0\TNVEDTransformer.csproj.AssemblyReference.cache

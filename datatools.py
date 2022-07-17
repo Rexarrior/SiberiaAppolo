@@ -16,7 +16,7 @@ def preprocess_tnved(all_data_in):
 def remove_replies_from_celll(cell, delimiter=";"):
     splitted_cell = [s.strip() for s in cell.split(delimiter)]
     unique_splitted_cell = list(set(splitted_cell))
-    result_cell = delimiter.join(unique_splitted_cell)
+    result_cell = splitted_cell[0]
     return result_cell
 
 

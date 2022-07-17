@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XbN93z/hxxHzdS5u76tQiVQcIk/FNRS3ezvUPL+fmknU19fu9+0kSt/hattZ7JCkUXOhPor3FszBRlk64BPtvw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rexarrior\\Desktop\\хакатон\\SiberiaAppolo\\TUNVERDTransformer\\TUNVERDTransformer\\TNVEDTransformer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rexarrior\\.nuget\\packages\\csvhelper\\28.0.1\\csvhelper.28.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
