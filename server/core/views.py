@@ -21,6 +21,20 @@ def task1_form(request):
     return HttpResponse( answer)
 
 
+def task2_form(request):
+    json_str=((request.body).decode('utf-8'))
+    json_obj=json.loads(json_str)
+    print(json_obj)
+    answer =  {
+        "tnved": "",
+        "reglament": "",
+        "group": "",
+        'productName': ""
+      },
+    return HttpResponse( answer)
+
+
+
 def index_page(request):
     return FileResponse(open(os.path.join(BASE_DIR,
                                           r"static/index.html"),

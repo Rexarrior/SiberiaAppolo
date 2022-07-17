@@ -26,7 +26,7 @@
           <b-button class="form-button" type="submit" variant="primary">Валидировать!</b-button>
           <b-button class="form-button" type="reset" variant="primary">Загрузить файл</b-button>
         </b-form>
-        <b-card class="mt-3" header="Form Data Result" v-if="show">
+        <b-card class="mt-3" header="Результат" v-if="show">
           <pre class="m-0">{{ task1_answer }}</pre>
         </b-card>
       </b-card>
@@ -45,13 +45,13 @@
 
           <b-button class="form-button" type="submit" variant="primary">Получить Рекомендации!</b-button>
         </b-form>
-        <b-card class="mt-3" header="Form Data Result" v-if="show">
+        <b-card class="mt-3" header="Результат" v-if="show">
           <pre class="m-0">{{ task2_answer }}</pre>
         </b-card>
       </b-card>
     </b-container>
 
-    <b-container task3-form>
+    <!-- <b-container class="task3-form">
       <b-card>
         <h5 class="card-title">Интерактивная карта товаров</h5>
         <b-form @submit="onSubmit" @reset="onReset">
@@ -68,7 +68,7 @@
           <MapExample></MapExample>
         </b-card>
       </b-card>
-    </b-container>
+    </b-container> -->
     <div class=e33_53>
       <div class="e4_7"></div><span class="e4_8">ИНФРАСТРУКТУРА ДОВЕРИЯ</span><span class="e4_9">О
         РОСАККРЕДИТАЦИИ</span><span class="e4_10">НИАР</span><span class="e4_11">ТЕХНОЛОГИЧНОСТЬ</span><span
@@ -91,7 +91,7 @@
 </template>
 
 <script>
-import MapExample from './MapExample.vue'
+// import MapExample from './MapExample.vue'
 // import axios from "axios"
 // import { response } from "express"
 // import  consts from "../js/common.js"
@@ -100,30 +100,26 @@ import MapExample from './MapExample.vue'
 
 export default {
   name: "indexOne",
-    components: {MapExample},
   data() {
     return {
       form1: {
-        tnved: "",
-        reglament: "",
-        group: "",
-        productName: ""
+        tnved: "4016999708",
+        reglament: "ТР ЕАЭС 043/2017 О требованиях к средствам обеспечения пожарной безопасности и пожаротушения",
+        group: "Узлы пересечения противопожарных преград кабельными изделиями, шинопроводами, герметичными кабельными вводами, муфтами и трубопроводами инженерных систем зданий и сооружений",
+        productName: "Проходки кабельные модульные универсальные огнестойкие типа КП-90, габаритными размерами 580х540 мм, общей толщиной 320 мм, состоящие из стальной рамки из угловых профилей (ГОСТ 8509-86), 8 закрепительных анкерных пластин (ГОСТ 8509-86), уплотнительных огнестойких модулей с цельнорезиновым сердечником типа РМ (глубиной 60 мм с каждой стороны) и компрессионных блоков типа РВ (глубиной 60 мм с каждой стороны). Пространство 200 мм между двумя проходками заполнено минеральной ватой "
       },
       form2: {
-        tnved: "",
-        reglament: "",
-        group: "",
-        productName: ""
+        productName: "Насосы шестеренные EnviroGear"
       },
       task2_answer: {
-        tnved: "",
-        reglament: "",
-        group: "",
-        productName: ""
+        tnved: "6302210000",
+        reglament: "ТР ЕАЭС 043/2017 О требованиях к средствам обеспечения пожарной безопасности и пожаротушения",
+        group: "Электрическое (электрооборудование) и неэлектрическое оборудование для работы во взрывоопасных средах, применяемое на опасных производственных объектах, за исключением изделий медицинского назначения, оборудования, при эксплуатации которого опасность взрыва возникает только из-за наличия взрывоопасных веществ и нестойких химических соединений, оборудования, предназначенного для бытового и непроизводственного применения в условиях, когда взрывоопасная среда образуется вследствие непредвиденной утечки горючего газа, средств индивидуальной защиты, морских судов и морских платформ, кроме электрооборудования, находящегося на их борту во взрывоопасных зонах, транспортных средств общего пользования, предназначенных для перевозки пассажиров и грузов воздушным, наземным, железнодорожным или водным транспортом, ядерного оружия, исследовательских установок организаций ядерно- оборонного комплекса и связанных с ними процессами проектирования (разработки), производства, монтажа, наладки, эксплуатации, хранения, перевозки и утилизации",
+        productName: "Насосы шестеренные EnviroGear"
       },
       show: true,
       task1_answer: {
-        validation_score: 100
+        validation_score: 87.5
       }
     };
   },
@@ -157,7 +153,7 @@ export default {
       event.preventDefault();
     }
   },
-  components: { MapExample, MapExample1 }
+  // components: { MapExample }
 }
 </script>
 
